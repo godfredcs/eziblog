@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+header .navbar.navbar-default {
+	padding: 20px 0;
+	background-color: #fff;
+	color: #0A3658;
+	border-radius: 0 !important;
+	border-bottom: 2px solid #0A3658 !important;
+	box-shadow: 0 0 5px #0A3658;
+}
+
+.navbar-default  a {
+	color: inherit !important;
+}
+
+.navbar-default a:not([class="navbar-brand"]):hover, .current {
+	background-color: #0A3658 !important;
+	color: #fff !important;
+}
+
+.navbar-default .navbar-brand {
+	font-weight: bolder;
+	text-shadow: 2px 1px 2px #0A3658;
+}
+
+.wrapper {
+	margin-top: 120px;
+}
+
+.active > a {
+	background-color: #0A3658 !important;
+	color: #fff !important;
+}
+
+a, button {
+	text-decoration: none !important;
+}
+
+.btn, input, .alert, textarea, .panel {
+	border-radius: 0 !important;
+}
+
+textarea {
+	resize: none !important;
+}
+
+#login-form, #signup-form, {
+	padding-top: 10px;
+}
+
+button {
+	outline: none !important;
+}
+
+.posting {
+	display: flex;
+	justify-content: space-between;
+}
+
+.edit {
+	margin-right: 20px;
+}
+
+#bloggers , #latests {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer {
+	padding: 20px;
+}
